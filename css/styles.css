@@ -27,6 +27,10 @@
 		margin-right: auto; 
 	}
 
+	.name {
+		margin-bottom: 0.25em;
+	}
+
 	.connect {
 		margin-top: 6em;
 	}
@@ -89,6 +93,6 @@ p {
 	/*background:#ea5;*/
 }
 
-.social-row i {
+.social-row {
 	-webkit-animation-delay: .4s;
 }

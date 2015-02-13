@@ -54,3 +54,11 @@
   color: white;
   background: #666;
 }
+.icon-linkedin {
+  color: #0976b4;
+  border: 2px solid #0976b4;
+}
+.icon-linkedin:hover {
+  color: white;
+  background: #0976b4;
+}
