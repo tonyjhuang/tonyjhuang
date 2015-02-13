@@ -1,0 +1,94 @@
+
+@media (min-width: 40.063em) {
+	body {
+		margin:0;     /* This is used to reset any browser-default margins */
+		height:100vh; /* This is needed to overcome a Chrome bug. */
+		width:100vw;  /* As above. */
+		background-color: #FCFCFC
+	}
+
+	.my-column {
+		height:100vh;
+	}
+
+	.outer {
+		display: table;
+		position: absolute;
+	}
+
+	.middle {
+		display: table-cell;
+		padding-bottom: 2em;
+		vertical-align: middle;
+	}
+
+	.inner {
+		margin-left: auto;
+		margin-right: auto; 
+	}
+
+	.connect {
+		margin-top: 6em;
+	}
+}
+
+@media (max-width: 40em) {
+	.middle {
+		margin-top: 2em;
+	}
+}
+
+* {
+	-webkit-animation-duration: 1.5s;
+	-mozkit-animation-duration: 1.5s;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+.profile {
+	-webkit-animation-delay: 0s;
+	margin-bottom: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 220px;
+	height: 220px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(../img/profile_rsz.jpg) no-repeat;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.name {
+	-webkit-animation-delay: .1s;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: xx-large;
+}
+
+.bio {
+	-webkit-animation-delay: .2s;
+}
+
+.connect {
+	-webkit-animation-delay: .3s;
+	font-size: small;
+	color: #B0B0B0;
+}
+
+.left {
+	/*background:#5ae;*/
+}
+
+.right {
+	/*background:#ea5;*/
+}
+
+.social-row i {
+	-webkit-animation-delay: .4s;
+}
