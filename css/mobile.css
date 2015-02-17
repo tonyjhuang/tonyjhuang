@@ -3,15 +3,23 @@ body {
 }
 
 .banner {
+	background: url("../img/bg.jpg") no-repeat center center fixed;
 	position: absolute;
+	background-size: cover;
 	top: 0;
 	left: 0;
-	width: auto;
-	max-width: 100%;
-	min-height: 17em;
-	height: auto;
+	width: 100vw;
+	height: 100%;
 }
 
 .parallax-container {
 	display: none;
+}
+
+.right {
+	display: none;
+}
+
+.content, .content-container {
+	padding-bottom: 1em;
 }

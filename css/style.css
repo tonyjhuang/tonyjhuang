@@ -2,6 +2,18 @@
 	font-family: 'Merriweather', serif;
 }
 
+body {
+	background-color: #EEE;
+}
+
+.right {
+	padding-left: 2em;
+}
+
+br {
+	margin-bottom: 1em;
+}
+
 .container {
 	position: relative;
 	padding: 0;
@@ -29,9 +41,8 @@
 .content {
 	width: 100% !important;
 	margin-bottom: 10em;
-	padding: 2em 0.5em 1em 0.5em;
 	background-color: #FBFBFA;
-	padding: 7em 1em 3em 1em;
+	padding: 5em 1em 2em 1em;
 	-webkit-box-shadow: 0px 0px 7px -1px rgba(156,156,156,1);
 	-moz-box-shadow: 0px 0px 7px -1px rgba(156,156,156,1);
 	box-shadow: 0px 0px 7px -1px rgba(156,156,156,1);
@@ -41,7 +52,7 @@
 	top: 12em;
 	left: 1em;
 	padding-left: 1em;
-	padding-bottom: 1em;
+	padding-bottom: 3em;
 	z-index: 1;
 	position: absolute;
 }
@@ -65,7 +76,12 @@
 
 .connect {
 	font-size: small;
-	margin-top: 2em;
+	color: #AAA;
+	margin-top: 3em;
+	margin-bottom: 0.5em;
+}
+
+.social-container i {
 }
 
 .entry-title {
@@ -80,14 +96,3 @@
 	color: #C0C0C0;
 }
 
-.right {
-	padding-left: 2em;
-}
-
-body {
-	background-color: #EEE;
-}
-
-br {
-	margin-bottom: 1em;
-}
