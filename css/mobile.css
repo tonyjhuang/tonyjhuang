@@ -1,27 +1,17 @@
 body {
-	padding: 0 1em;
+	padding: 0;
 }
 
-.container {
-	position: relative;
+.banner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: auto;
+	max-width: 100%;
+	min-height: 17em;
+	height: auto;
 }
 
-.top-spacer {
-	margin: 0 -1em;
-	background-image: url("../img/bg.jpg");
-	height: 20em;
-}
-
-.bottom-spacer {
-	height: 1em;
-}
-
-.content {
-	position: relative;
-	z-index: 1;
-	padding: 2em 0.5em 1em 0.5em;
-}
-
-.right {
+.parallax-container {
 	display: none;
 }

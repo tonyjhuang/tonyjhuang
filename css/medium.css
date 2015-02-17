@@ -1,0 +1,11 @@
+.banner {
+	display: none;
+}
+
+.parallax-container {
+	background: url("../img/bg.jpg") no-repeat center center fixed;
+	background-size: cover;
+	position: fixed;
+	height: 100vh;
+	width: 100%;
+}
