@@ -1,0 +1,57 @@
+* {
+	font-family: 'Merriweather', serif;
+}
+
+.content {
+	background-color: #FBFBFA;
+	padding: 7em 1em 3em 1em;
+	-webkit-box-shadow: 0px 0px 7px -1px rgba(156,156,156,1);
+	-moz-box-shadow: 0px 0px 7px -1px rgba(156,156,156,1);
+	box-shadow: 0px 0px 7px -1px rgba(156,156,156,1);
+}
+
+.name {
+	font-size: x-large;
+	font-weight: 700;
+}
+
+.entry {
+	font-size: large;
+	font-weight: 700;
+	text-decoration: underline;
+	margin-bottom: 0.75em;
+}
+
+.entry-header {
+	font-weight: 300;
+	margin-bottom: 0.75em;
+}
+
+.connect {
+	font-size: small;
+	margin-top: 2em;
+}
+
+.entry-title {
+	font-size: x-large;
+	font-weight: 700;
+	text-decoration: underline;
+	margin-bottom: 0;
+}
+
+.entry-meta {
+	font-size: small;
+	color: #C0C0C0;
+}
+
+.right {
+	padding-left: 2em;
+}
+
+body {
+	background-color: #EEE;
+}
+
+br {
+	margin-bottom: 1em;
+}

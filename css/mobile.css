@@ -1,0 +1,27 @@
+body {
+	padding: 0 1em;
+}
+
+.container {
+	position: relative;
+}
+
+.top-spacer {
+	margin: 0 -1em;
+	background-image: url("../img/bg.jpg");
+	height: 20em;
+}
+
+.bottom-spacer {
+	height: 1em;
+}
+
+.content {
+	position: relative;
+	z-index: 1;
+	padding: 2em 0.5em 1em 0.5em;
+}
+
+.right {
+	display: none;
+}
