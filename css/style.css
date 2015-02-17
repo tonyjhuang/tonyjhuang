@@ -14,6 +14,10 @@ br {
 	margin-bottom: 1em;
 }
 
+a, a:visited, a:hover  {
+	color: #000;
+}
+
 .container {
 	position: relative;
 	padding: 0;
@@ -60,6 +64,10 @@ br {
 .name {
 	font-size: x-large;
 	font-weight: 700;
+}
+
+.bio {
+	font-size: small;
 }
 
 .entry {

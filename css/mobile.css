@@ -3,7 +3,7 @@ body {
 }
 
 .banner {
-	background: url("../img/bg.jpg") no-repeat center center fixed;
+	background: url("../img/bg1.jpg") no-repeat center center fixed;
 	position: absolute;
 	background-size: cover;
 	top: 0;
@@ -22,4 +22,10 @@ body {
 
 .content, .content-container {
 	padding-bottom: 1em;
+}
+
+
+.soc li a i {
+    padding-top: 10px;
+    margin-left: -1px;
 }
