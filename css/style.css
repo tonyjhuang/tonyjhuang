@@ -33,15 +33,6 @@ a, a:visited, a:hover  {
 	height: auto;
 }
 
-.top-spacer {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: auto;
-	min-height: 26em;
-	width: 100%;
-}
-
 .content {
 	width: 100% !important;
 	margin-bottom: 10em;

@@ -4,10 +4,14 @@
 
 .parallax-container {
 	background: url("../img/bg.jpg") no-repeat center center fixed;
+	/*background: transparent;*/
 	background-size: cover;
+	webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 	position: fixed;
 	height: 100vh;
 	width: 100%;
-	-webkit-filter: blur(2px);
-	filter: blur(2px);
+	/*-webkit-filter: blur(2px);
+	filter: blur(2px);*/
 }

@@ -1,0 +1,1 @@
+//$(".banner").parallax({imageSrc: "img/bg.jpg", androidFix: true});

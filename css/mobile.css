@@ -1,15 +1,40 @@
+html{
+     height:100%;
+     min-height:100%;
+     }
+body{
+     min-height:100%;
+     }
+
 body {
 	padding: 0;
 }
 
-.banner {
-	background: url("../img/bg1.jpg") no-repeat center center fixed;
+.top-spacer {
 	position: absolute;
-	background-size: cover;
 	top: 0;
 	left: 0;
+	height: auto;
+	min-height: 26em;
+	width: 100%;
+}
+
+.top-spacer {
+	height: 100vh;
+}
+
+.banner {
+	background: url("https://ununsplash.imgix.net/uploads/14115120538776712c565/a699942a?q=75&fm=jpg&s=5379239231f09deb4570e043e0bec939") no-repeat center center fixed;
 	width: 100vw;
-	height: 100%;
+	border: 0;
+	height: 36em;
+	position: absolute;
+	background-size: cover;
+	webkit-background-size: cover;
+	/*-webkit-filter: blur(1px);
+	filter: blur(1px);*/
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .parallax-container {
@@ -22,6 +47,14 @@ body {
 
 .content, .content-container {
 	padding-bottom: 1em;
+}
+
+.content-container {
+	padding-top: 8em;
+}
+
+.content {
+	padding-top: 3em;
 }
 
 
