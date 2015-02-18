@@ -33,14 +33,9 @@ a, a:visited, a:hover  {
 	height: auto;
 }
 
-.content {
-	width: 100% !important;
-	margin-bottom: 10em;
-	background-color: #FBFBFA;
-	padding: 5em 1em 2em 1em;
-	-webkit-box-shadow: 0px 0px 7px -1px rgba(156,156,156,1);
-	-moz-box-shadow: 0px 0px 7px -1px rgba(156,156,156,1);
-	box-shadow: 0px 0px 7px -1px rgba(156,156,156,1);
+.table-container {
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
 }
 
 .content-container {
@@ -52,6 +47,16 @@ a, a:visited, a:hover  {
 	padding-bottom: 3em;
 	z-index: 1;
 	position: absolute;
+}
+
+.content {
+	width: 100% !important;
+	margin-bottom: 10em;
+	background-color: #FBFBFA;
+	padding: 5em 1em 2em 1em;
+	-webkit-box-shadow: 0px 0px 7px -1px rgba(156,156,156,1);
+	-moz-box-shadow: 0px 0px 7px -1px rgba(156,156,156,1);
+	box-shadow: 0px 0px 7px -1px rgba(156,156,156,1);
 }
 
 .name {
